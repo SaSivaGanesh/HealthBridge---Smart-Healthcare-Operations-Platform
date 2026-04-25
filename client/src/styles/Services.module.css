@@ -1,0 +1,126 @@
+.main_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f9f9f9, #eef5ff);
+}
+
+/* HERO SECTION */
+.smart_app {
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.smart_app_title {
+    background-color: #e6f0ff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.smart_app_heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0a2540;
+    margin: 10px 0;
+}
+
+.smart_app_heading_highlight {
+    font-size: 40px;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* CTA BUTTON */
+.cta_btn {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta_btn:hover {
+    background-color: #0056b3;
+}
+
+/* SERVICES */
+.our_services {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.our_services h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.our_services_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.service_card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+.service_card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ICON */
+.icon {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .smart_app_heading,
+    .smart_app_heading_highlight {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,15 @@
+/* Reset browser defaults for a flush layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+#root {
+  min-height: 100vh;
+}
