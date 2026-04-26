@@ -9,6 +9,7 @@ function App() {
       <p> Edit <code>src/App.jsx</code> and save to test HMR updates.</p>
       <p>kedari super queen</p>
       <p>Super Women</p>
+      <p>Strong Women</p>
     </>
   )
 }
