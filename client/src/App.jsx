@@ -10,6 +10,7 @@ function App() {
       <p>kedari super queen</p>
       <p>Super Women</p>
       <p>Strong Women</p>
+      <p>Beautiful</p>   
     </>
   )
 }
